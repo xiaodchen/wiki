@@ -2,9 +2,18 @@
 
 ## Description
 
-Wiki: a website that allow users to contribute to the wiki by creating new pages and editing existing pages. 
+Wiki: a website that allow users to contribute to the wiki by creating new articles, editing existing articles and view revision history. 
 
 ## Website 
 
-![Alt text](./imgs/Screen Shot 2017-09-14 at 2.59.10 PM.png)
-![Alt text](./imgs/Screen Shot 2017-09-14 at 2.59.39 PM.png)
+Login
+![Alt text](./imgs/ss.png)
+
+New article
+![Alt text](./imgs/ss3.png)
+
+Renders new article
+![Alt text](./imgs/ss2.png)
+
+View history
+![Alt text](./imgs/ss4.png)
