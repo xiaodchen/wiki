@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% if content %}
+
+		<div>{{content | safe}}</div> 
+	{%endif%}
+	<br>
+	<br>
+	{% if allpages %}
+		{% for page in allpages %}
+			{{ page.render() | safe }}
+			<br>
+		{% endfor %}
+	{% endif %}
+
+<!--  <div class = 'time'>queried {{timediff}} seconds ago</div> -->
+{% endblock %}
+
+

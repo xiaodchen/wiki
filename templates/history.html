@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<br>
+	{% if h_pages %}
+		{% for page in h_pages %}
+			{{ page.render() | safe }}
+			<br>
+		{% endfor %}
+	{% endif %}
+
+<!--  <div class = 'time'>queried {{timediff}} seconds ago</div> -->
+{% endblock %}
+
